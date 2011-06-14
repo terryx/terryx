@@ -1,0 +1,148 @@
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	background: #ccc;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding:0 5px;
+	font-family:  'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a.bold {
+  font-weight: bold;
+  padding:5px;
+}
+a:link    {color:#0000FF;}
+a:visited {color:#0000FF;}
+a:hover   {color:red;}
+a:active  {color:yellow;}
+img{
+	border: none;
+}
+#wrapper{
+	margin:20px auto;
+	width: 1020px;
+	min-height: 600px;
+	line-height: 18px;
+}
+#header{
+	margin:10px auto;
+	min-height: 100px;
+	width: 1024px;
+}
+/*#logo {
+	min-height: 100px;
+	border:1px solid;
+}*/
+  #nav {
+    
+  }
+  #nav li {
+    display: inline;
+    list-style: none;
+    padding: 0 10px;
+  }
+#sidebar1 {
+	width:180px;
+	float:left;
+
+}
+#sidebar2 {
+	width:220px;
+  min-height: 500px;
+  background-color: #FFFFFF;
+	float:left;
+
+}
+#container{
+
+	width:620px;
+	float:left
+}
+#content {
+	margin: 0;
+	padding:10px;
+	min-height: 500px;
+	background-color: #FFFFFF;
+}
+#footer{
+	clear:both;
+	margin: 0;
+}
+.clear{
+	clear:both;
+}
+#loader{
+	position: absolute;
+	z-index: 1000;
+	width:100%;
+	min-height:100%;
+	display:block;
+	background: #000 url(../img/ajax-loader.gif) no-repeat center center;
+	opacity:0.6;
+}
+#progress{
+	position: absolute;
+  top:50%;
+  left:48%;
+	z-index: 1200;
+	top:50%;
+	left:48%;
+	width:32px;
+	min-height:32px;
+	display:none;
+	background: url(../img/ajax-loader.gif) no-repeat center center;
+}
+.hook_error{
+	color: 	#FF0000;
+}
+#searchbar {
+  margin:10px 5px;
+  background: url(../img/search.png) no-repeat center center;
+  width:195px;
+  height: 32px;
+  cursor: pointer;
+}
+#searchbar input {
+  width:155px;
+  margin:7px 10px 0; 
+  border:none;
+}
+#searchbar input {
+  outline:none;
+}
+#search_result {
+  padding:5px;
+  width:190px;
+  min-height: 300px;
+  border:1px solid;
+}
+#search_result ul {
+  margin:0;
+  padding:0;
+}
+#search_result li {
+  margin:0;
+  padding:2px;
+  list-style: none;
+  border-bottom: 1px dotted;
+  cursor: pointer;
+}
+.sidenav {
+  margin:0;
+  padding:0;
+  min-height: 30px;
+  cursor: pointer;
+}
+.sidenav ul {
+  display: none;
+  margin:0;
+  padding:0;
+}
+.sidenav li {
+  list-style: none;
+  padding: 3px 10px;
+}
